@@ -33,3 +33,13 @@ setInterval(updateCountdown, 1000);
 
 // Initial call to update the countdown when the page loads
 updateCountdown();
+
+const fullscreenButton = document.querySelector("#fullscreenButton");
+
+fullscreenButton.addEventListener("click", () => {
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  } else {
+    document.documentElement.requestFullscreen();
+  }
+});
