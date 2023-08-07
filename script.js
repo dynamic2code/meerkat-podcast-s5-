@@ -1,6 +1,6 @@
 
 // Set your target date and time for the countdown (YYYY-MM-DDTHH:mm:ssTZD)
-const targetDate = '2023-08-07T00:00:00-08:00'; // Replace -08:00 with your desired timezone offset
+const targetDate = '2023-12-31T23:59:59-08:00'; // Replace -08:00 with your desired timezone offset
 
 function updateCountdown() {
   const currentDate = new Date();
